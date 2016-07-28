@@ -1,0 +1,63 @@
+/**
+  * Color Scheme:
+  *
+  * Dark Blue:   #252E3E, rgb(37, 46, 62)
+  * Pale Blue:   #ADD1F1, rgb(173, 209, 241)
+  * Mid Grey:    #5B6B74, rgb(91, 107, 116)
+  * Near White:  #C2E8F3, rgb(194, 232, 243)
+  * Lt Brown:    #8A6A5C, rgb(138, 106, 92)
+  *
+  * Created using Adobe Color CC:
+  * https://color.adobe.com/library/db297c67-b4c5-4b7a-b464-45f9ffe383df/theme/49dae6bd-cf5f-4c0d-b7fd-87485463b875/
+  *
+  **/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a:link, a:visited, a:active {
+	color: #252E3E;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #C2E8F3;
+	text-decoration: none;
+	font-weight: bold;
+}
+#container {
+	width: 80%;
+	margin: 0px auto;
+	background: #ADD1F1;
+}
+
+#header {
+	background: #252E3E;
+}
+	#header img {
+		width: 18%;
+	}
+	#head-text {
+		display: inline-block;
+		vertical-align: top;
+		width: 78%;
+		color: #ADD1F1;
+	}
+#center-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 68%;
+}
+#right-bar {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-left: 1%;
+	background: #8A6A5C;
+	font-family: sans-serif;
+}
+	#right-bar img {
+		width: 20px;
+		height: 20px;
+	}
